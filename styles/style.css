@@ -26,7 +26,7 @@ header {
     position: relative;
     box-sizing: border-box;
     width: 360px;
-    margin: auto; 
+    margin: auto;
 }
 
 .content-section_theme_dark {
@@ -55,13 +55,13 @@ header {
     height: 84px;
 }
 
-.header__menu-item_active  {
-    text-decoration: none;   
+.header__menu-item_active {
+    text-decoration: none;
 }
 
 .header__menu-item {
     text-decoration: none;
-    border-bottom: 2px solid currentColor; 
+    border-bottom: 2px solid currentColor;
 }
 
 .header a {
@@ -165,7 +165,7 @@ span {
 
 .content-section__list-item {
     padding-bottom: 16px;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .content-section__list-accent {
@@ -268,7 +268,6 @@ span {
     font-size: 14px;
     text-decoration: none;
     color: #F5F5F5;
-    text-decoration: none;
-    padding-left: 16px; 
+    padding-left: 16px;
     display: inline;
 }
