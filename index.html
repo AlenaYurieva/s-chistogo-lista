@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>С чистого листа</title>
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href='fonts/fonts.css'>
+    <link rel="stylesheet" href='styles/style.css'>
 </head>
 <body>
-<main>
     <header class="header content-section content-section_theme_dark">
         <div class="header__logo">
             <a href="#"> <img class="header__logo-image" src="./images/logo.svg" alt="Логотип"></a>
@@ -16,7 +15,7 @@
         <nav class="header__menu">
             <ul class="header__menu-list">
                 <li class="header__menu-link">
-                    <a class="header__menu-item_active" href="#0">Главная</a>
+                    <a class="header__menu-item active_link" href="#0">Главная</a>
                 </li>
                 <li class="header__menu-link">
                     <a class="header__menu-item" href="#0">О нас</a>
@@ -27,10 +26,11 @@
             </ul>
         </nav>
     </header>
+<main>
     <section class="content-section content-section_theme_dark">
         <div class="img-block">
             <h1 class="acent-span">
-                <span>С</span>
+                <span class="text-left">С</span>
                 <span class="text-center">чистого</span>
                 <span class="text-right">листа</span>
             </h1>
@@ -56,12 +56,11 @@
               </div>
         </header>
       </div>
-    <section class="content-section content-section_theme_bright">
+    <section class="content-section content-section_theme_bright reasons">
         <h2 class="content-section__subtitle">
             <span class="subtitle_right">Почему чистый лист</span>
             <span class="subtitle_left">—такой cтрашный?</span>
         </h2>
-        <div class="content-section_reasons">
             <p class="content-section__introduction">
                 Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма работы, которую предстоит
                 сделать.
@@ -70,43 +69,41 @@
                 Причин, почему первые усилия даются так сложно, может быть очень много. Вот основные:</p>
             <ul class="content-section__list">
                 <li class="content-section__list-item">
-                    <strong> Неуверенность в результате.</strong>
+                    <span class="content-section__list-accent"> Неуверенность в результате.</span>
                     И в том, что его вообще можно достичь. Ведь как можно быть уверенным,
                     что проводишь всю работу не впустую? Что доведёшь дело до конца? А тут, пока не начал, не надо и
                     заканчивать.
                 </li>
                 <li class="content-section__list-item">
-                    <strong>Страх критики.</strong> Если работу будет кто-то оценивать,
+                    <span class="content-section__list-accent">Страх критики.</span> Если работу будет кто-то оценивать,
                     то уже на самых ранних этапах мы смотрим на неё глазами этого человека.
                     Представляем, какие недостатки в ней можно найти. После этого желание что-то делать сразу пропадает.
                 </li>
                 <li class="content-section__list-item">
-                    <strong>Перфекционизм.</strong> Когда кажется, что работа не будет
+                    <span class="content-section__list-accent">Перфекционизм.</span> Когда кажется, что работа не будет
                     сделана идеально, будто бы нет смысла её и начинать.
                     В такие моменты мы можем забыть, что с первого раза что-то получается довольно редко.
                 </li>
                 <li class="content-section__list-item">
-                    <strong>Отсутствие мотивации.</strong> Как долгосрочной, так и
+                    <span class="content-section__list-accent">Отсутствие мотивации.</span> Как долгосрочной, так и
                     краткосрочной. Например, если дедлайн только через неделю,
                     можно посидеть пару часов, рассматривая узоры на обоях, — времени ещё вагон. Или прогуливать уроки
                     химии в школе,
                     потому что вроде как и хочется стать нейрохирургом, но в кино на «Мстителей» хочется ещё больше.
                 </li>
                 <li class="content-section__list-item">
-                    <strong>Недостаток информации.</strong> Начинать что-то особенно
+                    <span class="content-section__list-accent">Недостаток информации.</span> Начинать что-то особенно
                     сложно, если вы новичок в теме и только разбираетесь, что к чему.
                     Вам может казаться, что каждая строчка — глупость, и вообще всё, что вы сделаете, — будет
                     неправильно.
                 </li>
             </ul>
-          </div>
     </section>
-    <section class="content-section content-section_theme_dark">
+    <section class="content-section content-section_theme_dark how-to">
         <h2 class="content-section__subtitle">
             <span class="subtitle_right">Как всё-таки начать </span>
             <span class="subtitle_left">что-то делать </span>
         </h2>
-        <div class="content-section_how-to">
             <p class="content-section__introduction">
                 Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких
                 факторов.
@@ -116,7 +113,7 @@
                       <div class="card">
                           <div class="card__author">
                               <img class="card__author-photo" src="./images/polyarinov.png" alt="Фото Алексея Поляринова"> 
-                              <h3 class="card__author-name">Алексей Поляринов</h3>
+                              <p class="card__author-name">Алексей Поляринов</p>
                           </div>
                           <div class="card__content">
                               <h2 class="card__title">Начать любыми словами</h2> 
@@ -138,7 +135,7 @@
                       <div class="card">
                           <div class="card__author">
                               <img class="card__author-photo" src="./images/bunin.png" alt="Фото Бунина">
-                              <h3 class="card__author-name">Иван Бунин</h3>
+                              <p class="card__author-name">Иван Бунин</p>
                           </div>
                           <div class="card__content">
                               <h2 class="card__title">Сделать из задачи рутину</h2> 
@@ -150,8 +147,7 @@
                           </div>
                       </div>
                   </li>
-              </ul>
-          </div>          
+              </ul>         
     </section>
 </main>
 <footer class="content-section content-section_theme_dark">
